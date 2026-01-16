@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Colors from "./components/Colors";
 import Visualizer from "./components/Visualizer";
 import Settings from "./components/Settings";

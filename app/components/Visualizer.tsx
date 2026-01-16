@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import { useColorStore } from "@/lib/stores/useColorStore";
+import { useSettingsStore } from "@/lib/stores/useSettingsStore";
 const Visualizer = () => {
   const { colorOneHex, colorTwoHex, colorViaHex, via, directionCss, type } =
-    useColorStore();
+    useSettingsStore();
   return (
     <div className="relative w-full h-full border-2 border-neutral-200 rounded-lg aspect-video overflow-hidden">
       <div

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Output from "./Output";
-import { useColorStore } from "@/lib/stores/useColorStore";
+import { useSettingsStore } from "@/lib/stores/useSettingsStore";
 import {
   Select,
   SelectContent,
@@ -20,7 +20,7 @@ const Settings = () => {
     type,
     setType,
     setDirection,
-  } = useColorStore();
+  } = useSettingsStore();
 
   const directionMap: Record<string, string> = {
     "to top": "bg-linear-to-t",

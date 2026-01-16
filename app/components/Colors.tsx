@@ -1,8 +1,8 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import { tailwindColors } from "@/lib/tailwindColors";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { useColorStore } from "@/lib/stores/useColorStore";
+import { useSettingsStore } from "@/lib/stores/useSettingsStore";
 
 const Colors = () => {
   const colors = tailwindColors();
@@ -17,7 +17,7 @@ const Colors = () => {
     setColorOneHex,
     setColorTwoHex,
     setColorViaHex,
-  } = useColorStore();
+  } = useSettingsStore();
 
   return (
     <div className="bg-white p-6 rounded-xl border shadow-sm max-w-4xl mx-auto w-full">

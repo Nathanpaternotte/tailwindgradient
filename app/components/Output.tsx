@@ -1,9 +1,9 @@
 import React from "react";
-import { useColorStore } from "@/lib/stores/useColorStore";
+import { useSettingsStore } from "@/lib/stores/useSettingsStore";
 
 const Output = () => {
   const { colorOne, colorTwo, colorVia, via, direction, type } =
-    useColorStore();
+    useSettingsStore();
 
   const typeString = type === "linear" ? `${direction}` : `bg-radial`;
 
@@ -16,7 +16,6 @@ const Output = () => {
   };
 
   return (
-    // J'ai ajouté 'truncate' ici
     <div className="bg-neutral-800 w-full text-white rounded-lg p-4 truncate">
       {stringFormat()}
     </div>
