@@ -27,6 +27,11 @@ Here is what I'm planning for future updates:
 - [ ] **Custom Hex Colors:** Ability to input specific HEX codes beyond the default Tailwind palette.
 - [ ] **Interpolation Mode:** Smoother color transitions.
 
-## 🤝 Credits
+## 🤝 Credits & Stack
 
-This project is built for the amazing [Tailwind CSS](https://tailwindcss.com/) framework created by Tailwind Labs.
+This project is built using the following open-source technologies:
+
+- **[Tailwind CSS](https://tailwindcss.com/):** The core framework.
+- **[Next.js](https://nextjs.org/):** The React framework.
+- **[Zustand](https://github.com/pmndrs/zustand):** For simple and scalable state management.
+- **[shadcn/ui](https://ui.shadcn.com/):** For accessible and customizable UI components.
