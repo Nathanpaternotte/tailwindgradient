@@ -32,8 +32,8 @@ If you want to run this project locally or contribute to the code:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/ton-username/ton-repo.git](https://github.com/ton-username/ton-repo.git)
-    cd ton-repo
+    git clone [https://github.com/Nathanpaternotte/tailwindgradient.git](https://github.com/Nathanpaternotte/tailwindgradient.git)
+    cd tailwindgradient
     ```
 
 2.  **Install dependencies**
