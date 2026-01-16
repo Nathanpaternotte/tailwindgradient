@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tailwind Gradient Generator
 
-## Getting Started
+A lightweight, no-nonsense tool designed to simplify the creation of gradients for your Tailwind CSS projects.
 
-First, run the development server:
+🔗 **Try it here:** [twgradient.nathanpaternotte.be](https://twgradient.nathanpaternotte.be)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚡️ About The Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I built this small tool because I needed a quick and visual way to generate gradient classes without the hassle. It's designed to be simple, fast, and compatible with the latest Tailwind CSS versions (v3/v4).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+It currently supports **Linear** and **Radial** gradients, allowing you to copy the utility classes directly into your code.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Current Features (V1)
 
-## Learn More
+- **Linear Gradients:** Customize direction and colors.
+- **Radial Gradients:** Create circular gradients easily.
+- **Live Preview:** See the changes instantly as you tweak the settings.
+- **Clean Output:** Generates standard Tailwind utility classes.
 
-To learn more about Next.js, take a look at the following resources:
+## 🗺️ Roadmap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Here is what I'm planning for future updates:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [ ] **UX Improvements:** Better sliders and clearer interface.
+- [ ] **Conic Gradients:** Support for `bg-conic` utilities.
+- [ ] **Gradient Percentages:** Fine-tune stop positions (e.g., `from-10%`, `via-30%`).
+- [ ] **Custom Hex Colors:** Ability to input specific HEX codes beyond the default Tailwind palette.
+- [ ] **Interpolation Mode:** Smoother color transitions.
 
-## Deploy on Vercel
+## 🤝 Credits
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is built for the amazing [Tailwind CSS](https://tailwindcss.com/) framework created by Tailwind Labs.
